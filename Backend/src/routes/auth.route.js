@@ -11,7 +11,8 @@ router.post('/login', (req, res) => {
 router.post('/logout', (req, res) => {
     res.send('logout route');
 });
-
-
+router.post('/refresh', (req, res) => {
+    res.send('refresh route');
+})
 
 export default router;
